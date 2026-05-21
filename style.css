@@ -1,0 +1,31 @@
+:root{
+    /* Colors */
+    --color-primary: Green;
+    --color-secondary: yellow;
+    --color-danger: red;
+    gap:16px;
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8; /* Improves readability for body text */
+  color: #333;
+
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap:wrap;
+}
+.dashboard{
+display:grid;
+/* 3 columns: sidepar 240px, content fills rest*/
+grid-template-columns: 240px 1fr 300px;
+/* header and content rows */
+grid-template-rows: 60px 1fr;
+gap:16px;
+
+}
+section{ 
+    padding:50px;
+}
